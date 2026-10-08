@@ -1,0 +1,213 @@
+Zidwellness – Freedom to Live
+
+Product Requirements Document
+
+**Version:** 1.0
+**Product document reference:** MLP v1.0, dated 31 July 2026
+
+1. Project Overview
+
+Zidwellness is a digital health technology platform designed to help individuals, families, businesses, and communities manage health plans in one place.
+
+Users can purchase health plans for themselves or other people, manage beneficiaries, contribute toward their plans, monitor coverage, and manage renewals through a dashboard.
+
+Zidwellness facilitates health plan enrolment and management. Licensed Health Maintenance Organization (HMO) partners provide the actual health coverage and handle claims according to the applicable plan terms.
+
+ 2. Project Objective
+
+The objective is to make healthcare protection easier to access and manage by providing a convenient platform for individuals, families, dependents, and groups.
+
+**Tagline:** Protect the people who matter most.
+
+3. Target Users
+
+The platform is designed for:
+
+* Freelancers and entrepreneurs
+* Business owners and SMEs
+* Parents and families
+* Diaspora families
+* Churches and cooperatives
+* Schools and NGOs
+* Associations and other eligible groups
+
+ 4. Health Plan Types
+
+ 4.1 Personal Health
+
+Allows a user to manage a health plan for themselves.
+
+4.2 Family Health
+
+Allows one payer to manage health plans for multiple family members.
+
+ 4.3 Parent/Dependent Care
+
+Allows a user to pay for eligible dependents, including parents and other permitted beneficiaries.
+
+4.4 Group Health
+
+Allows organizations to coordinate health plans for members through designated administrators.
+
+ 5. Plan Selection and Onboarding
+
+During onboarding, users should be able to:
+
+1. Select who the plan is for.
+2. Choose a health plan.
+3. Select a contribution frequency.
+4. Choose a funding method.
+5. Activate the health plan.
+
+The product specification identifies Basic, Standard, Premium, and Gold plans.
+
+The specified contribution frequencies are daily, weekly, monthly, quarterly, and yearly.
+
+Plan eligibility, waiting periods, payment arrangements, and benefit activation must follow the final terms agreed with the relevant HMO partner.
+
+ 6. Dashboard Requirements
+
+The dashboard should display:
+
+* Current health level
+* Health plan type
+* Number of beneficiaries
+* Contribution frequency
+* Upcoming payment
+* Coverage status
+* A Manage Plan action
+
+The four health levels are:
+
+* Level 01 – Starter: Stay Well
+* Level 02 – Preventive: Check Yourself
+* Level 03 – Advanced: Protect Yourself
+* Level 04 – Ultimate Tier: Full Cover
+
+ 7. Beneficiary Management
+
+Users should be able to add and manage eligible beneficiaries.
+
+The proposed beneficiary profile includes:
+
+* Photo
+* Full name
+* Relationship
+* Phone number
+* Email address
+* Sex
+* Date of birth
+* Blood group
+* Genotype
+* Coverage status
+
+Access to personal and health-related information must be restricted to authorized users. The implementation should collect only information necessary for the service and comply with applicable data protection requirements.
+
+ 8. Group Health Management
+
+Group administrators should be able to:
+
+* Create a group.
+* Invite members through a unique link.
+* Add eligible members.
+* Monitor membership and coverage status.
+* View contribution cycles.
+* Review group activity.
+
+Members should be able to complete onboarding through their invitation links.
+
+The precise approval process and payment responsibilities must be defined in line with the group's agreement and the HMO partner's requirements.
+
+9. Digital Health Card
+
+Active members should receive a digital health card containing:
+
+* Member name and photo
+* Health ID
+* QR code
+* Health level
+* Expiry date
+* Active or inactive status
+
+The QR verification process should enable authorized healthcare providers to verify a member's identity and eligible coverage.
+
+Sensitive health information must not be exposed through a publicly accessible QR code. Verification should use appropriate access controls and secure data handling.
+
+10. Healthcare Claims Workflow
+
+The proposed workflow is:
+
+1. A healthcare provider scans the member's QR code.
+2. The system verifies the member and eligible coverage.
+3. The provider selects an eligible service.
+4. The provider submits the required treatment and billing information.
+5. The submission is routed securely to the responsible HMO claims team.
+6. The HMO reviews the claim and determines whether it is payable.
+7. Relevant parties receive appropriate status updates and documentation.
+
+The HMO remains responsible for claims decisions under the applicable agreement. The platform should protect patient information and restrict access to authorized personnel.
+
+11. Contributions and Renewals
+
+Users should be able to view contribution history, including:
+
+* Date
+* Amount
+* Coverage reference
+* Payment status
+
+The platform should support the agreed funding methods and contribution schedules.
+
+Users should be able to manage automatic renewal, pause future payments, or request cancellation in accordance with the applicable plan terms.
+
+12. Notifications
+
+The platform should support notifications for:
+
+* Successful contributions
+* Upcoming renewals
+* Coverage expiry
+* Health card activation
+* Beneficiary plan renewals
+* Group member requests
+
+Notifications should be clear, timely, and relevant to the recipient.
+
+13. Non-Functional Requirements
+
+The implementation should prioritize:
+
+* Security and privacy
+* Reliable access to coverage information
+* Clear and accessible user interfaces
+* Accurate payment and contribution records
+* Appropriate authorization and audit trails
+* Maintainability and testability
+* Compliance with applicable legal and regulatory requirements
+
+14. Project Scope and Future Enhancements
+
+Potential future features include telemedicine, medicine delivery, lab test booking, a hospital locator, emergency assistance, a medical records vault, health reminders, vaccination reminders, and additional health coverage options.
+
+These features are future enhancements and should not be treated as completed functionality.
+
+ 15. Project Responsibilities
+
+Zidwellness facilitates enrolment, payment, health plan management, and renewals.
+
+Licensed HMO partners provide the health coverage and handle claims in accordance with the applicable agreements and plan terms.
+
+ 16. Acceptance Criteria
+
+The product requirements are ready for implementation planning when:
+
+* The supported user roles and plan types are documented.
+* The onboarding process is defined.
+* Dashboard information is identified.
+* Beneficiary management requirements are documented.
+* Group health workflows are described.
+* Health card verification requirements are defined.
+* Claims responsibilities are clarified.
+* Contribution, renewal, and notification requirements are documented.
+* Security and privacy requirements are considered.
+* Outstanding decisions are identified for review with the relevant stakeholders.
